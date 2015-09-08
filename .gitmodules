@@ -1,0 +1,3 @@
+[submodule "ImageThemeView/pngquant"]
+	path = ImageThemeView/pngquant
+	url = https://github.com/pornel/pngquant/
