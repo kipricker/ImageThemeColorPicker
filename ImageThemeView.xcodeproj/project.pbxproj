@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		888E4EB41B92BC660055957C /* blur.c in Sources */ = {isa = PBXBuildFile; fileRef = 888E4EA61B92BC660055957C /* blur.c */; };
+		888E4EB51B92BC660055957C /* libimagequant.c in Sources */ = {isa = PBXBuildFile; fileRef = 888E4EA81B92BC660055957C /* libimagequant.c */; };
+		888E4EB61B92BC660055957C /* mediancut.c in Sources */ = {isa = PBXBuildFile; fileRef = 888E4EAA1B92BC660055957C /* mediancut.c */; };
+		888E4EB71B92BC660055957C /* mempool.c in Sources */ = {isa = PBXBuildFile; fileRef = 888E4EAC1B92BC660055957C /* mempool.c */; };
+		888E4EB81B92BC660055957C /* nearest.c in Sources */ = {isa = PBXBuildFile; fileRef = 888E4EAE1B92BC660055957C /* nearest.c */; };
+		888E4EB91B92BC660055957C /* pam.c in Sources */ = {isa = PBXBuildFile; fileRef = 888E4EB01B92BC660055957C /* pam.c */; };
+		888E4EBA1B92BC660055957C /* viter.c in Sources */ = {isa = PBXBuildFile; fileRef = 888E4EB21B92BC660055957C /* viter.c */; };
+		8899FF581B929A4000DA9CA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8899FF571B929A4000DA9CA1 /* main.m */; };
+		8899FF5B1B929A4000DA9CA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8899FF5A1B929A4000DA9CA1 /* AppDelegate.m */; };
+		8899FF5E1B929A4000DA9CA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8899FF5D1B929A4000DA9CA1 /* ViewController.m */; };
+		8899FF611B929A4100DA9CA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8899FF5F1B929A4100DA9CA1 /* Main.storyboard */; };
+		8899FF631B929A4100DA9CA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8899FF621B929A4100DA9CA1 /* Images.xcassets */; };
+		8899FF661B929A4100DA9CA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8899FF641B929A4100DA9CA1 /* LaunchScreen.xib */; };
+		88D98F5A1B9EA27C001C9E12 /* AlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D98CFB1B9EA27C001C9E12 /* AlbumTableViewCell.m */; };
+		88D98F5B1B9EA27C001C9E12 /* AlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88D98CFC1B9EA27C001C9E12 /* AlbumTableViewCell.xib */; };
+		88D98F5C1B9EA27C001C9E12 /* AlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D98CFE1B9EA27C001C9E12 /* AlbumTableViewController.m */; };
+		88D98F951B9EA28F001C9E12 /* TestImages in Resources */ = {isa = PBXBuildFile; fileRef = 88D98F931B9EA28F001C9E12 /* TestImages */; };
+		88D98F9B1B9EA6D1001C9E12 /* ImagePalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D98F981B9EA6D1001C9E12 /* ImagePalette.m */; };
+		88D98F9C1B9EA6D1001C9E12 /* ImageThemeColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D98F9A1B9EA6D1001C9E12 /* ImageThemeColorPicker.m */; };
+		CCF78EC60B0F8DF58B86A731 /* libPods-ImageThemeView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B28C5FD18BFF23E48D75FAB /* libPods-ImageThemeView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B18C0D1C28C86180944063A /* Pods-ImageThemeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageThemeView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageThemeView/Pods-ImageThemeView.release.xcconfig"; sourceTree = "<group>"; };
+		776EEAD46F0975ED832C458B /* Pods-ImageThemeView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageThemeView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageThemeView/Pods-ImageThemeView.debug.xcconfig"; sourceTree = "<group>"; };
+		888E4EA61B92BC660055957C /* blur.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = blur.c; path = pngquant/lib/blur.c; sourceTree = "<group>"; };
+		888E4EA71B92BC660055957C /* blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = blur.h; path = pngquant/lib/blur.h; sourceTree = "<group>"; };
+		888E4EA81B92BC660055957C /* libimagequant.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = libimagequant.c; path = pngquant/lib/libimagequant.c; sourceTree = "<group>"; };
+		888E4EA91B92BC660055957C /* libimagequant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libimagequant.h; path = pngquant/lib/libimagequant.h; sourceTree = "<group>"; };
+		888E4EAA1B92BC660055957C /* mediancut.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mediancut.c; path = pngquant/lib/mediancut.c; sourceTree = "<group>"; };
+		888E4EAB1B92BC660055957C /* mediancut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mediancut.h; path = pngquant/lib/mediancut.h; sourceTree = "<group>"; };
+		888E4EAC1B92BC660055957C /* mempool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mempool.c; path = pngquant/lib/mempool.c; sourceTree = "<group>"; };
+		888E4EAD1B92BC660055957C /* mempool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mempool.h; path = pngquant/lib/mempool.h; sourceTree = "<group>"; };
+		888E4EAE1B92BC660055957C /* nearest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nearest.c; path = pngquant/lib/nearest.c; sourceTree = "<group>"; };
+		888E4EAF1B92BC660055957C /* nearest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nearest.h; path = pngquant/lib/nearest.h; sourceTree = "<group>"; };
+		888E4EB01B92BC660055957C /* pam.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pam.c; path = pngquant/lib/pam.c; sourceTree = "<group>"; };
+		888E4EB11B92BC660055957C /* pam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pam.h; path = pngquant/lib/pam.h; sourceTree = "<group>"; };
+		888E4EB21B92BC660055957C /* viter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = viter.c; path = pngquant/lib/viter.c; sourceTree = "<group>"; };
+		888E4EB31B92BC660055957C /* viter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = viter.h; path = pngquant/lib/viter.h; sourceTree = "<group>"; };
+		8899FF521B929A4000DA9CA1 /* ImageThemeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageThemeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8899FF561B929A4000DA9CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8899FF571B929A4000DA9CA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8899FF591B929A4000DA9CA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8899FF5A1B929A4000DA9CA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8899FF5C1B929A4000DA9CA1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8899FF5D1B929A4000DA9CA1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8899FF601B929A4100DA9CA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8899FF621B929A4100DA9CA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8899FF651B929A4100DA9CA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		88D98CFA1B9EA27C001C9E12 /* AlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumTableViewCell.h; sourceTree = "<group>"; };
+		88D98CFB1B9EA27C001C9E12 /* AlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumTableViewCell.m; sourceTree = "<group>"; };
+		88D98CFC1B9EA27C001C9E12 /* AlbumTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumTableViewCell.xib; sourceTree = "<group>"; };
+		88D98CFD1B9EA27C001C9E12 /* AlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumTableViewController.h; sourceTree = "<group>"; };
+		88D98CFE1B9EA27C001C9E12 /* AlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumTableViewController.m; sourceTree = "<group>"; };
+		88D98F931B9EA28F001C9E12 /* TestImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TestImages; sourceTree = "<group>"; };
+		88D98F971B9EA6D1001C9E12 /* ImagePalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePalette.h; sourceTree = "<group>"; };
+		88D98F981B9EA6D1001C9E12 /* ImagePalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePalette.m; sourceTree = "<group>"; };
+		88D98F991B9EA6D1001C9E12 /* ImageThemeColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageThemeColorPicker.h; sourceTree = "<group>"; };
+		88D98F9A1B9EA6D1001C9E12 /* ImageThemeColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageThemeColorPicker.m; sourceTree = "<group>"; };
+		8B28C5FD18BFF23E48D75FAB /* libPods-ImageThemeView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImageThemeView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8899FF4F1B929A4000DA9CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF78EC60B0F8DF58B86A731 /* libPods-ImageThemeView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BA2B0585F29DB6F12FF16E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B28C5FD18BFF23E48D75FAB /* libPods-ImageThemeView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		888E4EA51B92BC4B0055957C /* pngquant */ = {
+			isa = PBXGroup;
+			children = (
+				888E4EA61B92BC660055957C /* blur.c */,
+				888E4EA71B92BC660055957C /* blur.h */,
+				888E4EA81B92BC660055957C /* libimagequant.c */,
+				888E4EA91B92BC660055957C /* libimagequant.h */,
+				888E4EAA1B92BC660055957C /* mediancut.c */,
+				888E4EAB1B92BC660055957C /* mediancut.h */,
+				888E4EAC1B92BC660055957C /* mempool.c */,
+				888E4EAD1B92BC660055957C /* mempool.h */,
+				888E4EAE1B92BC660055957C /* nearest.c */,
+				888E4EAF1B92BC660055957C /* nearest.h */,
+				888E4EB01B92BC660055957C /* pam.c */,
+				888E4EB11B92BC660055957C /* pam.h */,
+				888E4EB21B92BC660055957C /* viter.c */,
+				888E4EB31B92BC660055957C /* viter.h */,
+			);
+			name = pngquant;
+			sourceTree = "<group>";
+		};
+		8899FF491B929A4000DA9CA1 = {
+			isa = PBXGroup;
+			children = (
+				8899FF541B929A4000DA9CA1 /* ImageThemeView */,
+				8899FF531B929A4000DA9CA1 /* Products */,
+				AF2D2B08589FD54D873E18ED /* Pods */,
+				5BA2B0585F29DB6F12FF16E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8899FF531B929A4000DA9CA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8899FF521B929A4000DA9CA1 /* ImageThemeView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8899FF541B929A4000DA9CA1 /* ImageThemeView */ = {
+			isa = PBXGroup;
+			children = (
+				888E4EA51B92BC4B0055957C /* pngquant */,
+				88D98F961B9EA6D1001C9E12 /* ImageThemeColorPicker */,
+				88D98AD31B9EA27A001C9E12 /* Example */,
+				8899FF591B929A4000DA9CA1 /* AppDelegate.h */,
+				8899FF5A1B929A4000DA9CA1 /* AppDelegate.m */,
+				8899FF5C1B929A4000DA9CA1 /* ViewController.h */,
+				8899FF5D1B929A4000DA9CA1 /* ViewController.m */,
+				8899FF5F1B929A4100DA9CA1 /* Main.storyboard */,
+				8899FF621B929A4100DA9CA1 /* Images.xcassets */,
+				8899FF641B929A4100DA9CA1 /* LaunchScreen.xib */,
+				8899FF551B929A4000DA9CA1 /* Supporting Files */,
+			);
+			path = ImageThemeView;
+			sourceTree = "<group>";
+		};
+		8899FF551B929A4000DA9CA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8899FF561B929A4000DA9CA1 /* Info.plist */,
+				8899FF571B929A4000DA9CA1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88D98AD31B9EA27A001C9E12 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				88D98F931B9EA28F001C9E12 /* TestImages */,
+				88D98CFA1B9EA27C001C9E12 /* AlbumTableViewCell.h */,
+				88D98CFB1B9EA27C001C9E12 /* AlbumTableViewCell.m */,
+				88D98CFC1B9EA27C001C9E12 /* AlbumTableViewCell.xib */,
+				88D98CFD1B9EA27C001C9E12 /* AlbumTableViewController.h */,
+				88D98CFE1B9EA27C001C9E12 /* AlbumTableViewController.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		88D98F961B9EA6D1001C9E12 /* ImageThemeColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				88D98F971B9EA6D1001C9E12 /* ImagePalette.h */,
+				88D98F981B9EA6D1001C9E12 /* ImagePalette.m */,
+				88D98F991B9EA6D1001C9E12 /* ImageThemeColorPicker.h */,
+				88D98F9A1B9EA6D1001C9E12 /* ImageThemeColorPicker.m */,
+			);
+			path = ImageThemeColorPicker;
+			sourceTree = "<group>";
+		};
+		AF2D2B08589FD54D873E18ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				776EEAD46F0975ED832C458B /* Pods-ImageThemeView.debug.xcconfig */,
+				3B18C0D1C28C86180944063A /* Pods-ImageThemeView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8899FF511B929A4000DA9CA1 /* ImageThemeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8899FF751B929A4100DA9CA1 /* Build configuration list for PBXNativeTarget "ImageThemeView" */;
+			buildPhases = (
+				CD19F29D60FAC6FD33613B63 /* Check Pods Manifest.lock */,
+				8899FF4E1B929A4000DA9CA1 /* Sources */,
+				8899FF4F1B929A4000DA9CA1 /* Frameworks */,
+				8899FF501B929A4000DA9CA1 /* Resources */,
+				3CA1B6F3A8837FB4C20BDC0E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageThemeView;
+			productName = ImageThemeView;
+			productReference = 8899FF521B929A4000DA9CA1 /* ImageThemeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8899FF4A1B929A4000DA9CA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Wolf 424";
+				TargetAttributes = {
+					8899FF511B929A4000DA9CA1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 8899FF4D1B929A4000DA9CA1 /* Build configuration list for PBXProject "ImageThemeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8899FF491B929A4000DA9CA1;
+			productRefGroup = 8899FF531B929A4000DA9CA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8899FF511B929A4000DA9CA1 /* ImageThemeView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8899FF501B929A4000DA9CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D98F951B9EA28F001C9E12 /* TestImages in Resources */,
+				8899FF611B929A4100DA9CA1 /* Main.storyboard in Resources */,
+				88D98F5B1B9EA27C001C9E12 /* AlbumTableViewCell.xib in Resources */,
+				8899FF661B929A4100DA9CA1 /* LaunchScreen.xib in Resources */,
+				8899FF631B929A4100DA9CA1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CA1B6F3A8837FB4C20BDC0E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageThemeView/Pods-ImageThemeView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD19F29D60FAC6FD33613B63 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8899FF4E1B929A4000DA9CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888E4EB91B92BC660055957C /* pam.c in Sources */,
+				8899FF5E1B929A4000DA9CA1 /* ViewController.m in Sources */,
+				888E4EB81B92BC660055957C /* nearest.c in Sources */,
+				88D98F5A1B9EA27C001C9E12 /* AlbumTableViewCell.m in Sources */,
+				8899FF5B1B929A4000DA9CA1 /* AppDelegate.m in Sources */,
+				888E4EB71B92BC660055957C /* mempool.c in Sources */,
+				888E4EBA1B92BC660055957C /* viter.c in Sources */,
+				88D98F9B1B9EA6D1001C9E12 /* ImagePalette.m in Sources */,
+				888E4EB51B92BC660055957C /* libimagequant.c in Sources */,
+				8899FF581B929A4000DA9CA1 /* main.m in Sources */,
+				888E4EB41B92BC660055957C /* blur.c in Sources */,
+				88D98F9C1B9EA6D1001C9E12 /* ImageThemeColorPicker.m in Sources */,
+				88D98F5C1B9EA27C001C9E12 /* AlbumTableViewController.m in Sources */,
+				888E4EB61B92BC660055957C /* mediancut.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8899FF5F1B929A4100DA9CA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8899FF601B929A4100DA9CA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8899FF641B929A4100DA9CA1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8899FF651B929A4100DA9CA1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8899FF731B929A4100DA9CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8899FF741B929A4100DA9CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8899FF761B929A4100DA9CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 776EEAD46F0975ED832C458B /* Pods-ImageThemeView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageThemeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = ImageThemeView;
+			};
+			name = Debug;
+		};
+		8899FF771B929A4100DA9CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B18C0D1C28C86180944063A /* Pods-ImageThemeView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageThemeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = ImageThemeView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8899FF4D1B929A4000DA9CA1 /* Build configuration list for PBXProject "ImageThemeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8899FF731B929A4100DA9CA1 /* Debug */,
+				8899FF741B929A4100DA9CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8899FF751B929A4100DA9CA1 /* Build configuration list for PBXNativeTarget "ImageThemeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8899FF761B929A4100DA9CA1 /* Debug */,
+				8899FF771B929A4100DA9CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8899FF4A1B929A4000DA9CA1 /* Project object */;
+}

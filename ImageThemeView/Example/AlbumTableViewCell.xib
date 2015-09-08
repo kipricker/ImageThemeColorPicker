@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="82" id="KGk-i7-Jjw" customClass="AlbumTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="82"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="81.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GBY-9a-ZWA">
+                        <rect key="frame" x="8" y="9" width="64" height="64"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="64" id="Wy4-Lh-0Q4"/>
+                            <constraint firstAttribute="height" constant="64" id="bVg-dR-26q"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Primary Color" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYR-UW-qoz">
+                        <rect key="frame" x="80" y="8" width="104.5" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Secondary Color" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ov-0L-CyW">
+                        <rect key="frame" x="80" y="32" width="114.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7Ov-0L-CyW" firstAttribute="top" secondItem="eYR-UW-qoz" secondAttribute="bottom" constant="4" id="0LK-hq-u4V"/>
+                    <constraint firstItem="eYR-UW-qoz" firstAttribute="leading" secondItem="GBY-9a-ZWA" secondAttribute="trailing" constant="8" id="0pH-Cq-euU"/>
+                    <constraint firstItem="7Ov-0L-CyW" firstAttribute="leading" secondItem="GBY-9a-ZWA" secondAttribute="trailing" constant="8" id="Pxe-Yd-Gu5"/>
+                    <constraint firstItem="eYR-UW-qoz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Vxb-wY-6m4"/>
+                    <constraint firstAttribute="centerY" secondItem="GBY-9a-ZWA" secondAttribute="centerY" id="YRH-Lr-hBX"/>
+                    <constraint firstItem="GBY-9a-ZWA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="um5-Ct-6yz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="albumImage" destination="GBY-9a-ZWA" id="Oui-5F-8co"/>
+                <outlet property="buttonLabel" destination="eYR-UW-qoz" id="8U5-Co-aMp"/>
+                <outlet property="mainLabel" destination="7Ov-0L-CyW" id="nIb-6e-Sky"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
